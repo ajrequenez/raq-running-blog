@@ -1,0 +1,39 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const article = {
+  author: 'Raq',
+  date: '2025-01-01',
+  title: 'Welcome to My Running Blog',
+  description:
+    'The first post on my new running blog. Here I will share race reports, training insights, and everything I learn on the roads and trails.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default function Layout({ children }) {
+  return <ArticleLayout article={article}>{children}</ArticleLayout>
+}
+
+Welcome to my running blog! I've been wanting to start documenting my running journey for a while now, and I'm excited to finally have a place to share my experiences.
+
+## What to Expect
+
+This blog will be home to:
+
+- **Race Reports** - Detailed recaps of races I run, from 5Ks to marathons and beyond
+- **Training Insights** - What's working, what's not, and lessons learned along the way
+- **Gear Reviews** - Honest takes on shoes, watches, and other running gear
+- **Running Life** - The ups, downs, and everything in between
+
+## Why Blog About Running?
+
+Running is more than just putting one foot in front of the other. Every run tells a story, and every race is an adventure. I've found that writing about my experiences helps me process them, learn from them, and hopefully inspire others along the way.
+
+## Let's Go
+
+Thanks for stopping by. Whether you're a seasoned marathoner or just starting your running journey, I hope you find something here that resonates with you.
+
+See you on the roads!
