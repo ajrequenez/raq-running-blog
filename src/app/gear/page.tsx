@@ -36,7 +36,8 @@ function GearItem({
 
 export const metadata = {
   title: 'Gear',
-  description: 'Running shoes, watches, and gear I use for training and racing.',
+  description:
+    'Running shoes, watches, and gear I use for training and racing.',
 }
 
 export default function Gear() {
@@ -48,37 +49,34 @@ export default function Gear() {
       <div className="space-y-20">
         <GearSection title="Shoes">
           <GearItem title="Daily Trainer">
-            Add your go-to daily training shoe here. What makes it your
-            favorite for easy runs and long miles?
+            <span className="text-gray-400">Coming soon</span>
           </GearItem>
           <GearItem title="Race Day Shoe">
-            Your race day super shoe. What do you lace up when it&apos;s time
-            to go fast?
+            <span className="text-gray-400">Coming soon</span>
           </GearItem>
         </GearSection>
         <GearSection title="Watch & Tech">
           <GearItem title="GPS Watch">
-            Your running watch of choice. What features do you rely on most
-            during training?
+            <span className="text-gray-400">Coming soon</span>
           </GearItem>
           <GearItem title="Heart Rate Monitor">
-            Chest strap or optical? What do you use to track your effort?
+            <span className="text-gray-400">Coming soon</span>
           </GearItem>
         </GearSection>
         <GearSection title="Apparel">
           <GearItem title="Favorite Shorts">
-            The shorts you reach for on race day or your favorite long run.
+            <span className="text-gray-400">Coming soon</span>
           </GearItem>
           <GearItem title="Go-To Socks">
-            The socks that keep you blister-free mile after mile.
+            <span className="text-gray-400">Coming soon</span>
           </GearItem>
         </GearSection>
         <GearSection title="Nutrition">
           <GearItem title="Race Fuel">
-            Gels, chews, or real food? What keeps you going during long efforts?
+            <span className="text-gray-400">Coming soon</span>
           </GearItem>
           <GearItem title="Hydration">
-            Your hydration strategy for training and racing.
+            <span className="text-gray-400">Coming soon</span>
           </GearItem>
         </GearSection>
       </div>

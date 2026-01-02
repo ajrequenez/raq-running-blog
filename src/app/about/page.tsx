@@ -51,28 +51,49 @@ export default function About() {
           </div>
         </div>
         <div className="lg:order-first lg:row-span-2">
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Hey, I&apos;m Raq. Runner, storyteller, and mile collector.
+          <h1 className="text-2xl font-bold tracking-tight text-zinc-800 sm:text-3xl dark:text-zinc-100">
+            Hey, I&apos;m Raq. Runner in progress. Storyteller by nature.
+            Collecting miles one step at a time.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              Welcome to my corner of the internet where I document my running
-              journey. Whether it&apos;s a 5K or an ultra, every race has a story
-              worth telling.
+              This blog is my record of the journey—from where I am now to where
+              I hope to be: standing on the starting line of a full marathon
+              next year. Some days that journey looks like strong training runs
+              and small victories. Other days it looks like sore legs, missed
+              paces, and learning how to keep going anyway.
             </p>
+
             <p>
-              This blog is where I share race reports, training insights, gear
-              reviews, and the lessons learned along the way. Running has taught
-              me more about patience, persistence, and myself than I ever
-              expected.
+              Running has become more than workouts and race bibs for me.
+              It&apos;s about getting healthier, losing weight the sustainable
+              way, building discipline, and reshaping my mindset. It&apos;s
+              about showing up even when motivation is low and progress feels
+              slow.
             </p>
+
             <p>
-              I believe in showing up, putting in the work, and celebrating
-              every finish line — fast or slow. If you&apos;re here, you probably
-              feel the same way about this sport.
+              Here you&apos;ll find honest race recaps, training notes, lessons
+              learned the hard way, and the mental side of chasing a goal that
+              feels just out of reach. I&apos;m not here to pretend every run is
+              magical—I&apos;m here to document what it actually takes.
             </p>
+
             <p>
-              Thanks for reading. See you on the roads or trails.
+              I believe progress counts, no matter the pace. I believe
+              consistency beats perfection. And I believe every mile—good or
+              bad—adds up to something meaningful.
+            </p>
+
+            <p>
+              If you&apos;re on your own path toward a big goal, or just trying
+              to become a healthier version of yourself, you&apos;re in the
+              right place.
+            </p>
+
+            <p>
+              See you out there—on the road, the trail, or somewhere in the
+              middle of the grind.
             </p>
           </div>
         </div>

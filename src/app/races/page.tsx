@@ -5,17 +5,28 @@ import { SimpleLayout } from '@/components/SimpleLayout'
 
 const races = [
   {
-    name: 'Your First Race',
-    date: '2025',
+    name: 'Run Houston! Sam Houston Race Park 5K',
+    date: '2026-01-03',
     distance: '5K',
-    description: 'Add your first race here. Share your experience and what you learned.',
+    description: 'First race in the Run Houston! 2026 series.',
     status: 'upcoming',
+    referalLink: 'https://runsignup.com/Race/TX/Houston/RunHoustonSHRP',
+    referalLinkText: 'Sign up for the 5K here',
   },
   {
-    name: 'Goal Race',
-    date: '2025',
-    distance: 'Half Marathon',
-    description: 'Set your goal race here. What are you training for?',
+    name: 'Run Houston! Katy 5K',
+    date: '2026-02-07',
+    distance: '5K',
+    description: 'Race #2 in the Run Houston! 2026 series.',
+    status: 'upcoming',
+    referalLink: 'https://runsignup.com/Race/TX/Katy/KatyHalfMarathon',
+    referalLinkText: 'Sign up for the 5K here',
+  },
+  {
+    name: 'Chevron Houston Marathon',
+    date: '2027',
+    distance: '26.2 miles',
+    description: 'The culmination of a year of training and growth.',
     status: 'goal',
   },
 ]
