@@ -8,10 +8,11 @@ import '@/styles/tailwind.css'
 export const metadata: Metadata = {
   title: {
     template: "%s - Raq's Running Blog",
-    default: "Raq's Running Blog - Race reports, training logs, and running adventures",
+    default:
+      "Raq's Running Blog - Race reports, training logs, and running adventures",
   },
   description:
-    "Follow along on my running journey. Race reports, training insights, gear reviews, and everything in between.",
+    'Follow along on my running journey. Race reports, training insights, gear reviews, and everything in between.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
@@ -26,7 +27,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="h-full antialiased" suppressHydrationWarning>
-      <body className="flex h-full bg-zinc-50 dark:bg-black">
+      <body className="flex h-full bg-yellow-500 dark:bg-black">
         <Providers>
           <div className="flex w-full">
             <Layout>{children}</Layout>
