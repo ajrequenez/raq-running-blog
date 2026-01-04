@@ -9,7 +9,8 @@ const races = [
     date: '2026-01-03',
     distance: '5K',
     description: 'First race in the Run Houston! 2026 series.',
-    status: 'upcoming',
+    status: 'completed',
+    time: '34:40',
     referalLink: 'https://runsignup.com/Race/TX/Houston/RunHoustonSHRP',
     referalLinkText: 'Sign up for the 5K here',
   },
@@ -72,7 +73,8 @@ export default function Races() {
               <span>{race.date}</span>
               <span className="mx-2">·</span>
               <span className={race.status === 'goal' ? 'text-teal-500' : ''}>
-                {race.status === 'goal' ? 'Goal Race' : 'Upcoming'}
+                {race.status === 'goal' ? 'Goal Race' : ''}
+                {race.status === 'upcoming' ? 'Upcoming' : ''} {race.time}
               </span>
             </p>
           </Card>
